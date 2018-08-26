@@ -1,6 +1,8 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #e0ffff;
+  color: #363E66; /* For some reason, this shows up as black in the browser even though it's supposed to be navy */
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 nav {
@@ -50,3 +52,12 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link { color:#ffffff; } /* unvisited */
+a:visited { color:#0070BA; } /* visited */
+a:hover { color:#0070BB; } /* mouse over */
+a:active { color:#0070BD; } /* selected */
